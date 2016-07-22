@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="majid.ganji.zekrgoyan.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:background="#2db920">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="ذکر ایام هفته"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="#fae682"
+        android:textSize="32dp"
+        android:textStyle="normal|bold"
+        android:typeface="monospace"
+        android:gravity="center_vertical" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytSaturday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="شنبه:"
+            android:id="@+id/textView3"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytSunday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="یک شنبه:"
+            android:id="@+id/textView4"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytMonday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="دو شنبه:"
+            android:id="@+id/textView5"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytTuesday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="سه شنبه:"
+            android:id="@+id/textView6"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytWednesday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="چهار شنبه:"
+            android:id="@+id/textView7"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytThursday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="پنج شنبه:"
+            android:id="@+id/textView8"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical"
+            android:background="#8be623" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="4dp"
+        android:background="#8be623"
+        android:gravity="right"
+        android:paddingRight="20dp"
+        android:id="@+id/lytFriday">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="جمعه:"
+            android:id="@+id/textView9"
+            android:textSize="25dp"
+            android:textColor="#720d0d"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

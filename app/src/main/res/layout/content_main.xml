@@ -10,7 +10,7 @@
     tools:showIn="@layout/app_bar_main"
     android:orientation="vertical"
     android:gravity="right"
-    android:background="#2db920">
+    android:background="#085d00">
 
 
     <TextView
@@ -20,7 +20,7 @@
         android:id="@+id/textView2"
         android:textAlignment="center"
         android:textColor="#fae682"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:textStyle="normal|bold"
         android:typeface="monospace"
         android:gravity="center_vertical" />
@@ -38,9 +38,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="شنبه:"
+            android:text="شنبه: یا رب العالمین"
             android:id="@+id/textView3"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -59,9 +59,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="یک شنبه:"
+            android:text="یک شنبه: یا ذالجلال والاکرام"
             android:id="@+id/textView4"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -80,9 +80,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="دو شنبه:"
+            android:text="دو شنبه: یا قاضی الحاجات"
             android:id="@+id/textView5"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -101,9 +101,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="سه شنبه:"
+            android:text="سه شنبه: یا ارحم الراحمین"
             android:id="@+id/textView6"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -122,9 +122,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="چهار شنبه:"
+            android:text="چهار شنبه: یا حی یا قیوم"
             android:id="@+id/textView7"
-            android:textSize="25dp"
+            android:textSize="25sp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -143,9 +143,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="پنج شنبه:"
+            android:text="پنج شنبه: لا اله الا الله الملک الحق المبین"
             android:id="@+id/textView8"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textColor="#720d0d"
             android:gravity="center_vertical"
             android:background="#8be623" />
@@ -164,9 +164,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="جمعه:"
+            android:text="جمعه: اللهم صل علی محمد و ال محمد"
             android:id="@+id/textView9"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:textColor="#720d0d"
             android:gravity="center_vertical" />
     </LinearLayout>

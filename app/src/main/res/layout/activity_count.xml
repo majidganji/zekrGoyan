@@ -5,17 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="majid.ganji.zekrgoyan.CountActivity"
-    android:background="#2db920"
-    android:gravity="center">
+    android:background="#085d00">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtCount"
-        android:layout_gravity="center_horizontal"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zekre_day"
+            android:id="@+id/textView10"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#ddff45"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:id="@+id/txtZekr"
+            android:textSize="25sp"
+            android:textColor="#e4ff160e" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:gravity="center"
-        android:text="..."
-        android:textSize="42dp"
-        android:textColor="#ffffff" />
+        android:id="@+id/lytCount1">
+
+        <javaClass.CustomProgress
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:id="@+id/cusCount"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:id="@+id/lytCount2"></LinearLayout>
 </LinearLayout>

@@ -85,8 +85,7 @@ public class CountActivity extends AppCompatActivity {
         if (count < 100){
             cusCount.setPercent(++count);
             if (count == 100){
-                //TODO:: Alert message for complite zekr
-                new SweetAlertDialog(this)
+                new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                         .setTitleText("ماشالله")
                         .setContentText("ذکر امروز تموم شد.")
                         .setConfirmText("خدایا شکر")

@@ -1,11 +1,9 @@
 package majid.ganji.zekrgoyan;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -13,7 +11,7 @@ import cn.pedant.SweetAlert.SweetAlertDialog;
 import javaClass.CustomProgress;
 import javaClass.Week;
 
-public class CountActivity extends AppCompatActivity {
+public class CountActivity extends Activity {
 
     CustomProgress cusCount;
     TextView txtZekr;

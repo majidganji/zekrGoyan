@@ -16,6 +16,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
+import android.view.animation.AnimationSet;
+import android.view.animation.RotateAnimation;
 import android.widget.LinearLayout;
 
 import com.google.android.gms.appindexing.Action;
@@ -77,6 +79,7 @@ public class MainActivity extends Activity
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
     }
 
     @Override

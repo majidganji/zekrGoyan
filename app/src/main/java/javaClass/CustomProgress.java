@@ -13,7 +13,7 @@ public class CustomProgress extends ImageView {
     private final int STROKE_WIDTH = 8;
     private Paint paint;
     private Paint textPaint;
-    private int percent = 98;
+    private int percent = 0;
 
     public CustomProgress(Context context) {
         super(context);

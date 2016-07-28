@@ -24,10 +24,4 @@
         <item name="android:activityCloseExitAnimation">@anim/slide_out_left</item>
     </style>
 
-
-    <style name="CustomActivityTheme" parent="AppTheme">
-        <item name="android:homeAsUpIndicator">@mipmap/right</item>
-    </style>
-
-
 </resources>

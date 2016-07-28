@@ -1,6 +1,7 @@
 package majid.ganji.zekrgoyan;
 
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v4.app.TaskStackBuilder;
@@ -8,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -41,11 +43,6 @@ public class CountActivity extends Activity {
         setContentView(R.layout.activity_count);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        if (toolbar != null) {
-            setSupportActionBar(toolbar);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
-
 
         Bundle bundle = getIntent().getExtras();
         if (!bundle.containsKey("day")) {
@@ -90,11 +87,11 @@ public class CountActivity extends Activity {
         txtZekr.setText(this.week.get(numberDay).zekr);
     }
 
-    private void click(){
+    private void click() {
         int count = cusCount.getPercent();
-        if (count < 100){
+        if (count < 100) {
             cusCount.setPercent(++count);
-            if (count == 100){
+            if (count == 100) {
                 new SweetAlertDialog(this, SweetAlertDialog.SUCCESS_TYPE)
                         .setTitleText("ماشالله")
                         .setContentText("ذکر امروز تموم شد.")

@@ -13,8 +13,15 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        flavor1 {
+        }
+        flavor2 {
+            proguardFile 'flavor2-rules.pro'
         }
     }
 }
